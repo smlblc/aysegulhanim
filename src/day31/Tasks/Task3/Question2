@@ -1,0 +1,24 @@
+Will this code work without compile error?
+
+package pack1;
+
+public class A
+{
+    protected A()
+    {
+        //protected constructor
+    }
+}
+
+package pack1;
+
+import pack1.A;
+
+class B
+{
+    A a = new A();
+}
+
+
+AYNI PAKETTE OLDUKLARI ICIN BU CODE CALISIR ANCAK LINE 13DEKI PACKAGE 2 OLURSA YANI FARKLI PAKETTE OLSAYDI CALISMAZDI
+CUNKU CLASS A DAKI PROTECTED CONSTRUCTOR BASKA BIR PAKETTE new A(); da hata verir.Protected work in same package and subclass

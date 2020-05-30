@@ -1,0 +1,24 @@
+Why we can’t instantiate Class-A in the below code outside the
+package even though it has public constructor?
+
+package pack1;
+
+class A
+{
+    public A()
+    {
+        //public constructor
+    }
+}
+
+package pack2;
+
+import pack1.*;
+
+class B
+{
+    A a = new A();       //Compile Time Error
+}
+
+CUNKU CLASS A BIR PACKAGE-PRIVATE/DEFAULT CLASS BU NEDENLE ICINDEKI PUBLIC METHOD OLSA DAHI BUNU BASKA BIR PACKAGEDE
+INITIAL EDEMEZSIN. LINE 20 ERROR VERIR. PACKAGE-PRIVATE/DEFAULT CLASS ayni packagedeki classlarda initial olur.
