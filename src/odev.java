@@ -35,6 +35,8 @@ public class odev {
 
    }
 
-
+    {
+        System.out.println("once test1 brachine yukle sonra merge et");
+    }
 
 }
