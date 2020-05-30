@@ -14,4 +14,8 @@ public class DateConvert {
 
         System.out.println("converted to LocalDate: " + date);
     }
+
+    {
+        System.out.println("Ayri bir packageta degisiklik");
+    }
 }

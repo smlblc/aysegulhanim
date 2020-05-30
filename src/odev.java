@@ -6,6 +6,10 @@ public class odev {
         int a = 1;
         System.out.println(a);
     }
+
+    {
+        System.out.println("Yeni eklendi.");
+    }
    // Create a 2D String Array which is
 //[{"new jersey","atlanta","ohio"} ,
     //{"Pittsburgh" ,"ohio","new york","ohio"} ,

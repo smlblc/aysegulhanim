@@ -7,4 +7,8 @@ public class odevvv {
         String[] arr=a.split(" ");
         System.out.println(arr.length);
     }
+
+    static{
+        System.out.println("ayri bir classta static block");
+    }
 }
